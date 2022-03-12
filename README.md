@@ -6,7 +6,7 @@ Mark Stockwell | Wesley Ng
 
 <hr>
 
-# Table of contents
+# Table of Contents
 1. [Overview](#overview)
 2. [Directory Structure](#directory)
 3. [Files](#files)
@@ -31,7 +31,7 @@ ROOT<br>
 │       └───mask<br>
 ├───scripts<br>
 ├───model<br>
-|───output<br>
+├───output<br>
 │       ├───no_mask<br>
 │       └───mask<br>
 
