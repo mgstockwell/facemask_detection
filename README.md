@@ -5,15 +5,16 @@
 Mark Stockwell | Wesley Ng
 
 <hr>
+
 # Table of contents
-1. [Overview](#Overview)
-2. [Directory Structure](#Directory Structure)
+1. [Overview](#overview)
+2. [Directory Structure](#directory)
 3. [Files](#Files)
 4. [Usage](#Usage)
 
-# Overview
+# Overview<a name="overview"></a>
 
-# Directory Structure
+# Directory Structure<a name="directory"></a>
 
 ROOT<br>
 ├───data<br>
