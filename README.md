@@ -37,11 +37,16 @@ ROOT<br>
 
 # Files:
 - .gitignore
-- <DIR>data
-- <DIR>model
-- <DIR>output
-- <DIR>images
-- <DIR>input
+- \<DIR\>data
+- \<DIR\>model
+- \<DIR\>output
+- \<DIR\>images
+- \<DIR\>input
+- \<DIR\>scripts
+  - DeploySagemakerModel.ipynb - loads existing model to sagemaker from S3 and creates endpoint for inference.
+  - MaskDetectionModel.ipynb - Main script to build/train/test/export the model
+  - ProcessKaggleDataset.ipynb - helper to download dataset, unzip locally and load to S3
+  - resample.py - helper script to randomly sample images for quick tests
 - Face Mask Detection Project Final.pptx - slide deck with detailed info on pipelines and model.
 - FaceMaskDetectionWithTensorServing.ipynb - Main interface for interacting with model and generating predictions.
 - Face_Mask_Detection_Example_Execution.pdf - screen shots of model execution
@@ -50,11 +55,7 @@ ROOT<br>
 - Mask_Detection_Example Output_Prediction.PNG
 - README.md - this file
 - requirements.txt - list of packages and versions project uses
-- <DIR>scripts
-  - DeploySagemakerModel.ipynb - loads existing model to sagemaker from S3 and creates endpoint for inference.
-  - MaskDetectionModel.ipynb - Main script to build/train/test/export the model
-  - ProcessKaggleDataset.ipynb - helper to download dataset, unzip locally and load to S3
-  - resample.py - helper script to randomly sample images for quick tests
+
 
 # Usage
 1. Obtain AWS credentials (API key, secret key) and place in ~/.aws directory locally per ProcessKaggleDataset.ipynb instructions. These will be uploaded to Colab if running on that stack. 
